@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Junior Query Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h2>Junior Query Page</h2><br>
+    <form id="survey-form">
+        <div class="form-control">
+            <label for="name" id="label-name">
+              Name/ RollNo
+            </label>
+            <input type="text" id="name" placeholder="Enter your name" />
+        </div>
+
+          <div class="form-control">
+            <label for="query" id="label-query">
+                Ask a question
+            </label><br>
+            <textarea id="query" name="query" rows="4" cols="50">
+                Enter query here...
+            </textarea>
+          </div>
+          <form action="insert_query.html">
+            <!-- <input type="submit">  -->
+          </form>
+          <a href="login.html" style="float:left"><input type="submit" value="Submit">
+          </a>
+    </form>
+</body>
