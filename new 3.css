@@ -97,8 +97,6 @@ span.forgotpsd a {
   .register a:link{
     text-decoration: none;
   }
-
-  /* Media queries for the responsiveness of the page */
   @media screen and (max-width: 600px) {
     form{
       width: 25rem;
